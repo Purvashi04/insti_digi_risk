@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDR | Institute of Digital Risk</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <div class="logo">
+                <svg width="220" height="45" viewBox="0 0 450 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M30 25L55 10L80 25V55L55 70L30 55V25Z" fill="#4B0082"/>
+                    <circle cx="55" cy="40" r="7" fill="#FFD700" stroke="white" stroke-width="2"/>
+                    <text x="100" y="60" font-family="Inter" font-weight="800" font-size="34" fill="#4B0082">IDR</text>
+                </svg>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Pillars</a></li>
+                <li><a href="#community">Community</a></li>
+                <li><a href="#contact" class="nav-cta">Register Interest</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <header id="hero" class="hero">
+            <div class="container">
+                <h1>Advancing the Future of <span class="highlight">Digital Risk</span></h1>
+                <p class="hero-subheading">Training and deploying the next generation of risk practitioners, combining academic collaboration and industry practice.</p>
+                <div class="cta-group">
+                    <a href="#services" class="btn btn-primary">Explore Programs</a>
+                    <a href="#contact" class="btn btn-outline">Hire Talent</a>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="section">
+            <div class="container narrow">
+                <h2>The IDR Mission</h2>
+                <p>The Institute of Digital Risk is an industry-led training and deployment institute for digital, cyber, and technology risk roles in regulated, high-consequence environments.</p>
+                <p>We bridge the gap between academic insight through our UK university partnerships and deployment into real-world projects.</p>
+            </div>
+        </section>
+
+        <section id="services" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Service Pillars</h2>
+                <div class="grid">
+                    <article class="card">
+                        <div class="card-icon">01</div>
+                        <h3>Academy</h3>
+                        <p>Specialized training and bootcamps for students and professionals entering the risk landscape.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">02</div>
+                        <h3>Innovation</h3>
+                        <p>Developing IP, future risk models, and robust AI governance frameworks.</p>
+                    </article>
+                    <article class="card">
+                        <div class="card-icon">03</div>
+                        <h3>Advisory</h3>
+                        <p>Assisting organizations with the implementation of NIST, ISO 27001, and NIS2 frameworks.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="community" class="section">
+            <div class="container narrow">
+                <h2>Our Community</h2>
+                <p>We serve students, early-career professionals, and practitioners in sectors like financial services and critical infrastructure seeking upskilling in digital and cyber risk.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-dark">
+            <div class="container narrow">
+                <h2>Register Interest</h2>
+                <form id="idrForm" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Full Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="How can we help?" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Institute of Digital Risk. Industry-Led Resilience.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

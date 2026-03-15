@@ -1,0 +1,11 @@
+<svg width="500" height="120" viewBox="0 0 500 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="idr-icon">
+    <path d="M40 35L70 18L100 35V72L70 89L40 72V35Z" fill="#4B0082"/>
+    <path d="M70 18L100 35L70 52L40 35L70 18Z" fill="#6A1B9A"/>
+    <path d="M70 52V89L100 72V35L70 52Z" fill="#310054"/>
+    <circle cx="70" cy="52" r="8" fill="#FFD700" stroke="white" stroke-width="3"/>
+  </g>
+
+  <text x="130" y="55" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="22" fill="#FFD700" letter-spacing="-0.5">INSTITUTE OF</text>
+  <text x="130" y="88" font-family="Inter, Arial, sans-serif" font-weight="800" font-size="34" fill="#6A1B9A" letter-spacing="-1">DIGITAL RISK</text>
+</svg>
